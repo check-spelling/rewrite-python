@@ -336,8 +336,8 @@ public class IntelliJUtils {
         }
 
         @Override
-        public boolean isUncommited(@NotNull Document document) {
-            throw new UnsupportedOperationException("Method isUncommited is not yet implemented in " + getClass().getName());
+        public boolean isUncommitted(@NotNull Document document) {
+            throw new UnsupportedOperationException("Method isUncommitted is not yet implemented in " + getClass().getName());
         }
 
         @Override
@@ -346,8 +346,8 @@ public class IntelliJUtils {
         }
 
         @Override
-        public boolean hasUncommitedDocuments() {
-            throw new UnsupportedOperationException("Method hasUncommitedDocuments is not yet implemented in " + getClass().getName());
+        public boolean hasUncommittedDocuments() {
+            throw new UnsupportedOperationException("Method hasUncommittedDocuments is not yet implemented in " + getClass().getName());
         }
 
         @Override
